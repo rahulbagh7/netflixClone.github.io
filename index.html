@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaQuery.css">
+    <title>Netflix Clone</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="mainMenuContainer">
+            <div class="leftNav">
+                <ul class="leftMenu">
+                    <li id="brandName"><img src="images/netflexLogo.png" alt="" width="60px"></li>
+                    <li>Home</li>
+                    <li>TV Shows</li>
+                    <li>Movies</li>
+                    <li>New & Pupular</li>
+                    <li>My list</li>
+                </ul>
+            </div>
+            <div class="rightNav">
+                <ul class="rightMenu">
+                    <li id="SearchBar">
+                        <form>
+                            <input type="text">
+                            <span><i class="bi bi-search"></i></span>
+                        </form>
+                    </li>
+                    <li><i class="bi bi-bell-fill"></i></li>
+                    <li>Children</li>
+                    <li><img src="images/kidsMode.jpg" alt="" width="25px"></li>
+                    <li><select class="selectMode">
+                            <option value="" hidden></option>
+                            <option value="">Children</option>
+                            <option value="">Adults</option>
+                        </select></li>
+                </ul>
+            </div>
+        </div>
+       <div class="videoContainer">
+        <div class="videoCaptionContainer">
+            <video loop autoplay muted>
+                <source src="video/Marvel Studios' Avengers_ Endgame - Official Trailer.mp4">
+            </video>
+            <div class="caption">
+                <h3>
+                    Marvel's Studio
+                </h3>
+                <h1>
+                    Avengers : Engame
+                </h1>
+            </div>
+            <div class="videoBtn">
+                <button class="playBtn">
+                    <span><i class="bi bi-play-fill"></i></span><span>Play</span>
+                </button>
+                <button class="infoBtn">
+                    <span><i class="bi bi-info-circle"></i></span><span>More Info</span>
+                </button>
+            </div>
+        </div>
+       </div>
+    </div>
+
+
+
+    <div class="slider">
+        <div class="slider-items">
+          <div class="slider-item">
+            <img src="images/1.jpg" alt="Image 1">
+          </div>
+          <div class="slider-item">
+            <img src="images/2.jpg" alt="Image 2">
+          </div>
+          <div class="slider-item">
+            <img src="images/3.jpg" alt="Image 3">
+          </div>
+          <div class="slider-item">
+            <img src="images/4.jpg" alt="Image 3">
+          </div>
+          <div class="slider-item">
+            <img src="images/5.jpg" alt="Image 3">
+          </div>
+          <div class="slider-item">
+            <img src="images/6.jpg" alt="Image 3">
+          </div>
+          <div class="slider-item">
+            <img src="images/7.jpg" alt="Image 3">
+          </div>
+          <div class="slider-item">
+            <img src="images/8.jpg" alt="Image 3">
+          </div>
+          <div class="slider-item">
+            <img src="images/9.jpg" alt="Image 3">
+          </div>
+        </div>
+        <button class="slider-prev">&#8249;</button>
+        <button class="slider-next">&#8250;</button>
+      </div>
+      <script src="script.js"></script>
+</body>
+
+</html>
